@@ -4,7 +4,7 @@ function Recipe({recipe}) {
   return (
     <div class="recipe">
       <div class="header">
-        <img src={recipe.imgHref} alt="food" width="100" height="100" />
+        <img src={recipe.image} alt="food" width="100" height="100" />
         <h5>{recipe.title}</h5>
       </div>
       <div class="nutrition">

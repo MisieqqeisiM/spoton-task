@@ -35,6 +35,9 @@ img {
 }
 .ingredients {
   display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
 }
 
